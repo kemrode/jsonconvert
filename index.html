@@ -7,11 +7,20 @@
     <title>Convertisseur</title>
 </head>
     <h1>Convertisseur</h1>
-    <p>Et si on convertissait nos tableur XML en données JSON ?</p>
+    <p>Et si on convertissait nos tableurs XML en données JSON ?</p>
 <body>
-    <div>
-        
+    <div id="inputTxt">
+        <!-- création d'un onglet de saisie pour entrer le nom du tableur à convertir-->
+        <label for="link">Lien du document: </label>
+        <input type="text" id="link" name="link">
     </div>
+    <div id="btnValidate">
+        <button class="btnValid" >
+            <img src="ressources/downloadImg.png" alt="telecharger"/>
+        </button>
+    </div>
+
+    <script src="convert.js"></script>
     
 </body>
 </html>
